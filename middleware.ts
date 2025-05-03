@@ -1,10 +1,1 @@
-
-import { authMiddleware } from "@clerk/nextjs";
-
-export default authMiddleware({
-  publicRoutes: ["/", "/sign-in", "/sign-up"],
-});
-
-export const config = {
-  matcher: ["/((?!_next|.*\..*).*)"],
-};
+// Middleware para proteger rutas con Clerk

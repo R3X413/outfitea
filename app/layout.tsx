@@ -1,0 +1,1 @@
+// Layout base con integración de Clerk
